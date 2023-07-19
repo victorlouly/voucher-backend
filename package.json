@@ -7,7 +7,8 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node api"
+    "start": "node api",
+    "build": "node api"
   },
   "author": "",
   "license": "ISC",
