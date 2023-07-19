@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node api",
-    "build": "node api"
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
