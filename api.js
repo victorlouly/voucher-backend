@@ -24,4 +24,5 @@ app.post('/send', upload.single('anexo'), (req, res, next) => {
         .catch(error => res.json(error));
 }) 
 
-app.listen(3030, () => console.log("Servidor escutando na porta 3030..."));
+const port = process.env.PORT || 9001;
+app.listen(port, () => console.log(`Listening to port ${port}`))
